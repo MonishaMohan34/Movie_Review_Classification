@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="form-section">
+    <form action="/predict" method="post">
+        <label for="review"><strong>Enter a Movie Review:</strong></label>
+        <textarea id="review" name="review" rows="5" placeholder="Write your review here..." required></textarea>
+        <div style="display: flex; justify-content: center; align-items: center; ">
+            <button type="submit">Analyze Sentiment</button>
+        </div>
+        
+        <!-- <button type="submit" >Analyze Sentiment </button> -->
+    </form>
+</section>
+{% endblock %}

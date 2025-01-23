@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="result-section">
+    <h2>Sentiment Analysis Result</h2>
+    <p><strong>Review:</strong> {{ review }}</p>
+    <p><strong>Sentiment:</strong> {{ sentiment }}</p>
+    <div style="display: flex; justify-content: center; align-items: center; ">
+        <!-- <button type="submit">Analyze Sentiment</button> -->
+        <a href="/" class="back-button">Analyze Another Review</a>
+    </div>
+   
+</section>
+{% endblock %}

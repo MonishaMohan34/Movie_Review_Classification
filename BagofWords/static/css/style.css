@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fafb;
+    color: #333;
+}
+
+header {
+    background-color:  #000000;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+    color: #f9fafb;
+}
+
+footer {
+    background-color:  #e36708;
+    color: rgb(10, 167, 181);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.form-section, .result-section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-section:hover, .result-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f9fafb;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+button, .back-button {
+    background: #6A11CB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .back-button:hover {
+    background: #4A90E2;
+    transform: scale(1.05);
+}
+
+.back-button {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: #4A90E2;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6A11CB;
+}
